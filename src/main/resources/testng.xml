@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo Api_All" parallel="classes" thread-count="6">
+    <!--Api Tests-->
+    <test name="RestAssured jsonplaceholder.typicode.com Tests">
+        <classes>
+            <class name="com.epam.api.tests.JSONPlaceHolderRestAssuredTests"/>
+        </classes>
+    </test>
+    <test name="GIST GITHUB HTTP Client Tests">
+        <classes>
+            <class name="com.epam.api.tests.GistHttpClientTests"/>
+        </classes>
+    </test>
+</suite>
