@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Demo Api_All" parallel="classes" thread-count="6">
+<suite name="Demo Api_All">
     <!--Api Tests-->
     <test name="RestAssured jsonplaceholder.typicode.com Tests">
         <classes>

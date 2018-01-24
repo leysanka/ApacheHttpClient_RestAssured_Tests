@@ -31,6 +31,9 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>target/classes/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <!--Uncomment for parallel run-->
+                    <!--<parallel>classes</parallel>
+                    <threadCount>2</threadCount>-->
                 </configuration>
             </plugin>
         </plugins>

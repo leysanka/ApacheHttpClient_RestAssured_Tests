@@ -18,7 +18,7 @@ public class GistUtils {
 
 //    Path for local run
 //    private static final String GIST_ID_FILE_PATH = "./target/gistId.txt";
-    private static final String GIST_ID_FILE_PATH = "/gistId.txt";
+    private static final String GIST_ID_FILE_PATH = "target/gistId.txt";
     private static final String ENCODING = "utf-8";
     private static final String CONTENT_TYPE = "application/json";
 
